@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+
+    <!-- HEADER with Flexbox -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">KS</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#socials">Socials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION with Flexbox -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Kartik Sharma</h1>
+            <p class="hero-subtitle">Coding Enthusiast</p>
+            <p class="hero-desc">Passionate Computer Science Engineering Student at KR Mangalam University</p>
+            <button class="cta-button">View My Work</button>
+        </div>
+        <div class="hero-image">
+            <img src="profilepic2.jpeg" alt="Kartik Sharma - Profile Picture">
+        </div>
+    </section>
+
+    <main id="main-content">
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a first-year CSE student with Data Science specialization at KR Mangalam University. I
+                        have a passion for coding and enjoy the creativity and problem-solving it brings.</p>
+                    <p>I love learning new technologies, building projects like Voice Assistants and Typing Tests, and
+                        staying active with running and football. Music from The Weeknd and Daniel Caesar fuels my
+                        creativity!</p>
+                </div>
+                <img src="profilepic2.jpeg" alt="Profile Picture" class="about-img">
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION with CSS GRID -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Beginner → Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Learning</p>
+                </div>
+                <div class="skill-card">
+                    <h3>PyQt5</h3>
+                    <p>GUI Development</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Speech APIs</h3>
+                    <p>Project Experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION with CSS GRID -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3> <a href="https://github.com/kartik1280/Voice-Assistant" target="_blank">Voice Assistant</a>
+                    </h3>
+                    <p>A smart voice assistant using <code>speech_recognition</code>, <code>pyttsx3</code>, and
+                        Wikipedia API, capable of reading news and controlling system apps.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/Digital-Clock" target="_blank">Digital clock</a></h3>
+                    <p>using <code>PyQt5</code> for GUI, basic layout management to place and style the clock in the
+                        window and time module to fetch current time.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/Snake-Water-Gun-Game" target="_blank">Snake Water Gun
+                            game</a></h3>
+                    <p>using <code>pyttsx3</code> to make the game interactive, basic level exception handelling and
+                        use of loops showcased in the project.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/perfect-guess-game" target="_blank">The Perfect
+                            Guess</a></h3>
+                    <p>This project showcased basic skills in user input, control flow, randomness, and loops in
+                        Python.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/GradeBook-Analyzer"
+                            target="_blank">GradeBook-Analyzer</a></h3>
+                    <p>GradeBook Analyzer is a Python CLI tool that helps manage student grades by importing or
+                        recording marks,
+                        automatically assigning letter grades, calculating key statistics, and exporting results to
+                        CSV.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/WPM-Typing-Test" target="_blank">WPM-Typing-Test</a></h3>
+                    <p>WPM Typing Test is a terminal Python app that measures
+                        typing speed and accuracy with live feedback using random sentences.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3><a href="https://github.com/kartik1280/Library-Inventory-Manager"
+                            target="_blank">Library-Inventory-Manager</a></h3>
+                    <p>Library Inventory Manager is a Python CLI app to
+                        add, issue, return, and track books using JSON for storage.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SOCIALS SECTION -->
+        <section id="socials" class="section">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kartik-sharma-188887365/" target="_blank" class="social-link">
+                    LinkedIn
+                </a>
+                <a href="https://www.instagram.com/kartik.sharmaaaa/" target="_blank" class="social-link">
+                    Instagram
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
