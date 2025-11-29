@@ -8,8 +8,8 @@
 - About section layout
 
 ### CSS Grid Layouts
-- Skills: 6 cards in responsive grid
-- Projects: 4 project cards with hover effects
+- Skills: cards in responsive grid
+- Projects: project cards with hover effects
 
 ### Responsive Breakpoints Tested
 - Desktop: >768px (Full layout)
